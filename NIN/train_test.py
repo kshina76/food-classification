@@ -9,8 +9,8 @@ from keras.preprocessing.image import load_img, img_to_array, array_to_img
 from sklearn.model_selection import train_test_split
 from keras.utils import to_categorical
 
-directory = '../food-101/images'
-class_path = '../food-101/meta/classes.txt'
+directory = '../food-3/images'
+class_path = '../food-3/meta/classes.txt'
 save_model_name = 'NIN.h5'
 load_model_name = 'NIN.h5'
 height = 128
