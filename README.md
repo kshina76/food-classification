@@ -2,7 +2,6 @@
 # Usage  
 ## Step1. データセットの準備  
 https://www.vision.ee.ethz.ch/datasets_extra/food-101/  
-../CNN_ver1 においてください  
 
 ## Step2. 実行方法  
 $ python train_test.py –mode [train or test]  
