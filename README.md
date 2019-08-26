@@ -28,11 +28,14 @@ flattenでパラメータが増えすぎていたので、パラメータを減�
 過学習は抑えれたみたいだけど、まだ精度が低い。  
 
 ## CNN_1 augmentationあり Flatten使用  
+loss: 1.1530 - acc: 0.5912  
 
 ## CNN_1 augmentationあり Global Average Pooling使用  
+loss: 0.064 - acc: 0.6415  
 
 ## CNN  augmentationなし  
-loss: 0.4155 - acc: 0.8151  
-Dropoutをかませつつ過学習を抑えて、層を深くしてみた。
+loss: 0.045 - acc: 0.8151  
+Dropoutをかませつつ過学習を抑えて、層を深くしてみた。  
 
 ## CNN  augmentationあり  
+loss: 0.033 - acc: 0.8535  
